@@ -1,0 +1,27 @@
+{
+  "name": "lemme-know",
+  "version": "1.0.0-alpha.1",
+  "description": "Lets you know if your websites go down (via email)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "lemme-know": "./index.js"
+  },
+  "keywords": [
+    "server",
+    "monitor",
+    "isup"
+  ],
+  "author": "Saunved",
+  "license": "ISC",
+  "dependencies": {
+    "cli-table": "^0.3.1",
+    "colors": "^1.4.0",
+    "commander": "^5.1.0",
+    "is-up": "^4.0.0",
+    "nodemailer": "^6.4.8",
+    "shelljs": "^0.8.4"
+  }
+}
